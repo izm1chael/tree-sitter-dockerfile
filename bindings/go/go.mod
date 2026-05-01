@@ -1,4 +1,4 @@
-module github.com/camdencheek/tree-sitter-dockerfile
+module github.com/izm1chael/tree-sitter-dockerfile
 
 go 1.22
 

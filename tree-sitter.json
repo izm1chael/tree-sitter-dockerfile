@@ -28,7 +28,7 @@
       }
     ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-dockerfile"
+      "repository": "https://github.com/izm1chael/tree-sitter-dockerfile"
     }
   },
   "bindings": {
