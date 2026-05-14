@@ -10,18 +10,18 @@ dependencies:
     version: 7.1.0
   node-gyp-build:
     specifier: ^4.8.0
-    version: 4.8.1
+    version: 4.8.4
   tree-sitter:
-    specifier: ^0.21.0
-    version: 0.21.1
+    specifier: ^0.25.0
+    version: 0.25.0
 
 devDependencies:
   prebuildify:
     specifier: ^6.0.0
     version: 6.0.1
   tree-sitter-cli:
-    specifier: ^0.20.8
-    version: 0.20.8
+    specifier: ^0.24.0
+    version: 0.24.7
 
 packages:
 
@@ -86,13 +86,13 @@ packages:
     engines: {node: ^16 || ^18 || >= 20}
     dev: false
 
-  /node-addon-api@8.0.0:
-    resolution: {integrity: sha512-ipO7rsHEBqa9STO5C5T10fj732ml+5kLN1cAG8/jdHd56ldQeGj3Q7+scUS+VHK/qy1zLEwC4wMK5+yM0btPvw==}
+  /node-addon-api@8.7.0:
+    resolution: {integrity: sha512-9MdFxmkKaOYVTV+XVRG8ArDwwQ77XIgIPyKASB1k3JPq3M8fGQQQE3YpMOrKm6g//Ktx8ivZr8xo1Qmtqub+GA==}
     engines: {node: ^18 || ^20 || >= 21}
     dev: false
 
-  /node-gyp-build@4.8.1:
-    resolution: {integrity: sha512-OSs33Z9yWr148JZcbZd5WiAXhh/n9z8TxQcdMhIOlpN9AhWpLfvVFO73+m77bBABQMaY9XSvIa+qk0jlI7Gcaw==}
+  /node-gyp-build@4.8.4:
+    resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
     dev: false
 
@@ -123,7 +123,7 @@ packages:
       node-abi: 3.62.0
       npm-run-path: 3.1.0
       pump: 3.0.0
-      tar-fs: 2.1.1
+      tar-fs: 2.1.4
     dev: true
 
   /pump@3.0.0:
@@ -158,8 +158,8 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /tar-fs@2.1.1:
-    resolution: {integrity: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==}
+  /tar-fs@2.1.4:
+    resolution: {integrity: sha512-mDAjwmZdh7LTT6pNleZ05Yt65HC3E+NiQzl672vQG38jIrehtJk/J3mNwIg+vShQPcLF/LV7CMnDW6vjj6sfYQ==}
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
@@ -178,18 +178,19 @@ packages:
       readable-stream: 3.6.2
     dev: true
 
-  /tree-sitter-cli@0.20.8:
-    resolution: {integrity: sha512-XjTcS3wdTy/2cc/ptMLc/WRyOLECRYcMTrSWyhZnj1oGSOWbHLTklgsgRICU3cPfb0vy+oZCC33M43u6R1HSCA==}
+  /tree-sitter-cli@0.24.7:
+    resolution: {integrity: sha512-o4gnE82pVmMMhJbWwD6+I9yr4lXii5Ci5qEQ2pFpUbVy1YiD8cizTJaqdcznA0qEbo7l2OneI1GocChPrI4YGQ==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
     dev: true
 
-  /tree-sitter@0.21.1:
-    resolution: {integrity: sha512-7dxoA6kYvtgWw80265MyqJlkRl4yawIjO7S5MigytjELkX43fV2WsAXzsNfO7sBpPPCF5Gp0+XzHk0DwLCq3xQ==}
+  /tree-sitter@0.25.0:
+    resolution: {integrity: sha512-PGZZzFW63eElZJDe/b/R/LbsjDDYJa5UEjLZJB59RQsMX+fo0j54fqBPn1MGKav/QNa0JR0zBiVaikYDWCj5KQ==}
     requiresBuild: true
     dependencies:
-      node-addon-api: 8.0.0
-      node-gyp-build: 4.8.1
+      node-addon-api: 8.7.0
+      node-gyp-build: 4.8.4
     dev: false
 
   /util-deprecate@1.0.2:
